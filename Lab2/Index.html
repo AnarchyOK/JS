@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/popups.css">
+    <title>Lab 2</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="header-title">Teachinder</h1>
+        <form action="#" class="header-form">
+            <label>
+                <input class="header-input" type="text" placeholder="Name, note or age to search">
+            </label>
+            <button class="submit-btn" type="submit">Search</button>
+        </form>
+        <nav class="header-nav">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#top-title" class="menu-link">Teachers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#stat-title" class="menu-link">Statistics</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#fav-title" class="menu-link">Favorites</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#foot" class="menu-link">About</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="add-btn" href="#myForm">Add teacher</a>
+    </div>
+</header>
+<main class="main">
+    <section class="top-info">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 id="top-title" class="top-title">Top Teachers</h2>
+            </div>
+            <form action="#" class="top-form">
+                <label> Age
+                    <select id="age" class="age-select">
+                        <option value="" class="age-sel-option" disabled selected>Chose age</option>
+                        <option value="18-31" class="age-sel-option">18-31</option>
+                        <option value="31-44" class="age-sel-option">31-44</option>
+                        <option value="44-57" class="age-sel-option">44-57</option>
+                        <option value="57+" class="age-sel-option">57+</option>
+                    </select>
+                </label>
+                <label>Region
+                    <select class="region-select">
+                        <option value="" class="region-option" disabled selected>Chose region</option>
+                        <option value="Europe" class="region-option">Europe</option>
+                        <option value="Asia" class="region-option">Asia</option>
+                        <option value="Australia" class="region-option">Australia</option>
+                        <option value="Africa" class="region-option">Africa</option>
+                        <option value="North America" class="region-option">North America</option>
+                        <option value="Southern America" class="region-option">Southern America</option>
+                    </select>
+                </label>
+                <label>Sex
+                    <select class="sex-select">
+                        <option value="" class="sex-option" disabled selected>Chose sex</option>
+                        <option value="male" class="sex-option">Male</option>
+                        <option value="female" class="sex-option">Female</option>
+                    </select>
+                </label>
+                <label>
+                    <input type="checkbox" class="photo-check">
+                    Only with photo
+                </label>
+                <label>
+                    <input type="checkbox" class="favorites-check">
+                    Only favorites
+                </label>
+            </form>
+            <div class="top-cards">
+                <ul class="top-cards-list">
+                    <li class="top-cards-item">
+                        <a href="#teacher-info-popup"><img src="./Images/elliot_ward.jpg" alt="teachers photo"></a>
+                        <h3 class="card-name">Elliot</h3>
+                        <h3 class="card-last-name">Ward</h3>
+                        <p class="subject">Chemistry</p>
+                        <p class="country">Ukraine</p>
+                    </li>
+                    <li class="top-cards-item">
+                        <img src="./Images/keira_martinez.jpg" alt="teachers photo">
+                        <h3 class="card-name">Keira</h3>
+                        <h3 class="card-last-name">Martinez</h3>
+                        <p class="subject">Chess</p>
+                        <p class="country">India</p>
+                    </li>
+                    <li class="top-cards-item star-card">
+                        <img class="star" src="./Images/star.png" alt="star">
+                        <img src="./Images/paolo_edwards.jpg" alt="teachers photo">
+                        <h3 class="card-name">Paolo</h3>
+                        <h3 class="card-last-name">Edwards</h3>
+                        <p class="subject">Vocal</p>
+                        <p class="country">Denmark</p>
+                    </li>
+                    <li class="top-cards-item">
+                        <img src="./Images/quinntin_rodriguez.jpg" alt="teachers photo">
+                        <h3 class="card-name">Quinntin</h3>
+                        <h3 class="card-last-name">Rodriguez</h3>
+                        <p class="subject">Computer Science</p>
+                        <p class="country">Belgium</p>
+                    </li>
+                    <li class="top-cards-item star-card">
+                        <img class="star" src="./Images/star.png" alt="star">
+                        <img src="./Images/sylvia_clark.jpg" alt="teachers photo">
+                        <h3 class="card-name">Sylvia</h3>
+                        <h3 class="card-last-name">Clark</h3>
+                        <p class="subject">Biology</p>
+                        <p class="country">China</p>
+                    </li>
+                    <li class="top-cards-item">
+                        <img src="./Images/zaida_carter.jpg" alt="teachers photo">
+                        <h3 class="card-name">Zaida</h3>
+                        <h3 class="card-last-name">Carter</h3>
+                        <p class="subject">Medicine</p>
+                        <p class="country">UK</p>
+                    </li>
+                    <li class="top-cards-item">
+                        <p class="p-circle">F. J</p>
+                        <h3 class="card-name">Frederick</h3>
+                        <h3 class="card-last-name">Jones</h3>
+                        <p class="subject">Chess</p>
+                        <p class="country">Poland</p>
+                    </li>
+                    <li class="top-cards-item">
+                        <p class="p-circle"> F. K</p>
+                        <h3 class="card-name">Floella</h3>
+                        <h3 class="card-last-name">Kelly</h3>
+                        <p class="subject">Physics</p>
+                        <p class="country">France</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 id="stat-title" class="statistic-title">Statistics</h2>
+            </div>
+            <table class="statistics-table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Speciality</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Nationality</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Daisy Alexander</td>
+                    <td>Chemistry</td>
+                    <td>28</td>
+                    <td>Female</td>
+                    <td>Vietnam</td>
+                </tr>
+                <tr>
+                    <td>Julia Bradley</td>
+                    <td>Math</td>
+                    <td>26</td>
+                    <td>Female</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Rita Hart</td>
+                    <td>Art</td>
+                    <td>41</td>
+                    <td>Female</td>
+                    <td>Ireland</td>
+                </tr>
+                <tr>
+                    <td>Jonathan White</td>
+                    <td>Math</td>
+                    <td>32</td>
+                    <td>Male</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td>Nathaniel White</td>
+                    <td>Computer Science</td>
+                    <td>37</td>
+                    <td>Male</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td>Frank Medina</td>
+                    <td>English</td>
+                    <td>43</td>
+                    <td>Male</td>
+                    <td>Italy</td>
+                </tr>
+                <tr>
+                    <td>Ella Curtis</td>
+                    <td>Chess</td>
+                    <td>34</td>
+                    <td>Female</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Claire Simmons</td>
+                    <td>Art</td>
+                    <td>38</td>
+                    <td>Female</td>
+                    <td>Netherlands</td>
+                </tr>
+                <tr>
+                    <td>Benjamin Knight</td>
+                    <td>Biology</td>
+                    <td>44</td>
+                    <td>Male</td>
+                    <td>Scotland</td>
+                </tr>
+                <tr>
+                    <td>Norma Rose</td>
+                    <td>Statistics</td>
+                    <td>36</td>
+                    <td>Female</td>
+                    <td>France</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="pagination">
+                <ul class="b-pagination">
+                    <li class="b-item">
+                        <button class="b-link">1</button>
+                    </li>
+                    <li class="b-item">
+                        <button class="b-link">2</button>
+                    </li>
+                    <li class="b-item">
+                        <button class="b-link">3</button>
+                    </li>
+                    <li class="b-item">
+                        <span class="span-link">...</span>
+                    </li>
+                    <li class="b-item">
+                        <button class="b-link">Last</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="favorites">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 id="fav-title" class="favorites-title">Favorites</h2>
+            </div>
+            <div class="favorite-teachers">
+                <ul class="teacher-card">
+                    <li class="teacher-item">
+                        <img src="./Images/elliot_ward.jpg" alt="teachers photo">
+                        <h3 class="card-name">Elliot</h3>
+                        <h3 class="card-last-name">Ward</h3>
+                        <p class="country">Ukraine</p>
+                    </li>
+                    <li class="teacher-item">
+                        <img src="./Images/keira_martinez.jpg" alt="teachers photo">
+                        <h3 class="card-name">Keira</h3>
+                        <h3 class="card-last-name">Martinez</h3>
+                        <p class="country">India</p>
+                    </li>
+                    <li class="teacher-item">
+                        <img src="./Images/paolo_edwards.jpg" alt="teachers photo">
+                        <h3 class="card-name">Paolo</h3>
+                        <h3 class="card-last-name">Edwards</h3>
+                        <p class="country">Denmark</p>
+                    </li>
+                    <li class="teacher-item">
+                        <img src="./Images/quinntin_rodriguez.jpg" alt="teachers photo">
+                        <h3 class="card-name">Quinntin</h3>
+                        <h3 class="card-last-name">Rodriguez</h3>
+                        <p class="country">Belgium</p>
+                    </li>
+                    <li class="teacher-item">
+                        <img src="./Images/sylvia_clark.jpg" alt="teachers photo">
+                        <h3 class="card-name">Sylvia</h3>
+                        <h3 class="card-last-name">Clark</h3>
+                        <p class="country">China</p>
+                    </li>
+                    <!--                    <li class="card-navigation prev">-->
+                    <!--                        <a href="#"><img class="navigation" src="./Images/less.png" alt="undo"></a>-->
+                    <!--                    </li>-->
+                    <!--                    <li class="card-navigation next">-->
+                    <!--                        <a href="#"><img class="navigation" src="./Images/less.png" alt="undo"></a>-->
+                    <!--                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="arrows">
+            <div class="arrow arrow-left">
+                <img src="./Images/less.png" alt="">
+            </div>
+            <div class="arrow arrow-right">
+                <img src="./Images/less.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="comment">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 class="no-title"></h2>
+            </div>
+            <div class="p-comments">
+                <p class="comment-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae
+                    doloremque itaque totam.
+                    Accusamus accusantium asperiores assumenda, beatae blanditiis consequuntur corporis delectus
+                    deserunt distinctio doloremque
+                    doloribus eius est, impedit itaque iure laborum laudantium maxime molestiae, nam nisi numquam odio
+                    odit officia omnis possimus
+                    quam quas quos ratione reiciendis reprehenderit rerum sed sequi sunt temporibus unde voluptatibus
+                    voluptatum. Aliquid animi
+                    consequuntur dolor doloremque ducimus, ipsam, officiis reprehenderit sapiente, similique velit vero.
+                </p>
+                <p class="comment-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illo nemo
+                    saepe? Delectus fugiat fugit
+                    officiis optio porro quidem sed sequi sit voluptatibus. Hic, natus?
+                </p>
+                <p class="comment-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur,
+                    cumque doloremque placeat
+                    ut voluptatum.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="foot" class="footer">
+    <div class="container">
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#top-title" class="menu-link">Teachers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#stat-title" class="menu-link">Statistics</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#fav-title" class="menu-link">Favorites</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#foot" class="menu-link">About</a>
+                </li>
+                <li class="menu-item-btn">
+                    <a class="add-btn" href="#myForm">Add teacher</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<div class="form-popup" id="myForm">
+    <div id="form" class="form">
+        <div class="form-header">
+            <h3>Add Teacher</h3>
+            <a class="close" href="#">&times;</a>
+        </div>
+        <form action="#" class="form-container" id="form-container">
+            <label for="name">Name</label>
+            <input class="form-item name" type="text" maxlength="30" id="name" pattern="(^[A-Za-z]{3,16})"
+                   placeholder="Enter name" required>
+
+            <label for="speciality">Speciality</label>
+            <select class="form-item speciality" name="specialities" id="speciality" required>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Art">Art</option>
+                <option value="Chess">Chess</option>
+                <option value="Biology">Biology</option>
+                <option value="ComputerScience">Computer Science</option>
+                <option value="English">English</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Statistics">Statistics</option>
+            </select>
+
+            <div class="flex-data">
+                <div class="data-item">
+                    <label>Country
+                        <input type="text" list="countries" name="countries" minlength="2" pattern="^[a-zA-Z]+$"
+                               required>
+                    </label>
+                    <datalist id="countries">
+                        <option value="Ukraine"></option>
+                        <option value="Poland"></option>
+                        <option value="UK"></option>
+                        <option value="US"></option>
+                        <option value="Germany"></option>
+                        <option value="France"></option>
+                    </datalist>
+                </div>
+                <div class="form-item data-item">
+                    <label for="city">City</label>
+                    <input type="text" id="city" minlength="2" pattern="^[a-zA-Z]+$" required>
+                </div>
+                <div class="form-item data-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                           required>
+                </div>
+                <div class="form-item data-item">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                </div>
+            </div>
+
+            <label for="birthday">Date of birth</label>
+            <input class="form-item birthday" type="date" id="birthday" lang="en" required> <! ? -->
+            <div id="sex" class="form-item sex">
+                <span>Sex</span>
+                <label>Male
+                    <input type="radio" name="sex">
+                </label>
+                <label>Female
+                    <input type="radio" name="sex">
+                </label>
+            </div>
+
+            <div id="form-color" class="form-item color">
+                <label for="favcolor">Background color</label>
+                <img class="back-color" src="./Images/color.svg" alt="color">
+                <input type="color" id="favcolor">
+            </div>
+
+            <label for="comment">Notes (optional)</label>
+            <textarea class="form-item notes" id="comment" rows="5" cols="20"></textarea>
+
+            <input type="submit" id="form-submit" class="form-item add-btn submit" value="Add">
+        </form>
+    </div>
+</div>
+<div id="teacher-info-popup" class="teacher-info-popup">
+    <div class="teacher-info">
+        <div class="info-header">
+            <h3>Teacher Info</h3>
+            <a class="close" href="#">&times;</a>
+        </div>
+        <div class="info">
+            <div class="card">
+                <img id="info-card-photo" class="photo" src="./Images/elliot_ward.jpg" alt="Elliot_Ward">
+                <img id="info-card-star" class="star" src="./Images/star_card.png" alt="star">
+                <div class="card-info">
+                    <h3 id="info-card-title">Elliot Ward</h3>
+                    <p id="p-subject" class="subject">Chemistry</p>
+                    <p id="p-address">Kyiv, Ukraine</p>
+                    <p id="p-per-data">35, Male</p>
+                    <a id="a-email" class="email" href="mailto:elliot_ward@gmail.com">elliot_ward@gmail.com</a>
+                    <a id="a-phone" class="phone" href="tel:0961111111">+38-096-111-11-11</a>
+                </div>
+            </div>
+            <p id="p-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, amet at eligendi enim
+                expedita harum id illo maiores minima minus mollitia nesciunt nostrum, nulla officia optio possimus
+                recusandae sapiente tenetur.
+            </p>
+            <a id="a-map" class="map" href="https://goo.gl/maps/sTBq9svGgWiCzo1h8" target="_blank">toggle map</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

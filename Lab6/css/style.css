@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Shantell+Sans:wght@600&display=swap');
+
+html {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.header {
+    color: red;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: grid;
+    grid-template-areas:
+        "header-title header-form"
+        "nav-menu add-btn";
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    grid-area: header-title;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 48px;
+}
+
+.header-form {
+    grid-area: header-form;
+    justify-self: right;
+}
+
+.submit-btn, .add-btn {
+    color: inherit;
+    font-weight: bold;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: red;
+    padding: 10px 15px;
+}
+
+.submit-btn:hover, .add-btn:hover {
+    background-color: indianred;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn, .header-input {
+    font-size: 14px;
+}
+
+.header-input {
+    padding: 10px 5px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    grid-area: nav-menu;
+}
+
+.add-btn {
+    grid-area: add-btn;
+    justify-self: right;
+}
+
+.menu-item {
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.menu-item a {
+    color: inherit;
+}
+
+.menu-item a:hover {
+    color: darkred;
+}
+
+.box-h2 {
+    text-align: center;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 30px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.filters fieldset {
+    padding: 2px 8px 6px;
+    width: 150px;
+}
+
+.filters legend {
+    font-size: 14px;
+    color: #777;
+}
+
+.filter {
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    overflow: unset;
+}
+
+#country-input::placeholder{
+    color: black;
+}
+
+.top-cards, .favorite-teachers {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
+    row-gap: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+}
+
+.card-info h3 {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+.card-info .subject {
+    margin-bottom: 5px;
+    color: darkgrey;
+    font-size: 16px;
+}
+
+.card-info .country {
+    font-size: 12px;
+}
+
+.card img:not(.star) {
+    border-radius: 50%;
+    max-width: 150px;
+    border: 4px solid #b55959;
+}
+
+.star {
+    position: absolute;
+    height: 50px;
+    background-color: transparent;
+    right: 0;
+    top: 0;
+}
+
+.p-circle {
+    height: 128px;
+    width: 128px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #b55959;
+    font-size: 24px;
+    color: indianred;
+    font-weight: bolder;
+}
+.more-teacher-button {
+    display: block;
+    margin: 15px auto;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: red;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+.more-teacher-button:hover{
+    background-color: indianred;
+    color: white;
+    cursor: pointer;
+}
+
+
+.statistics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.statistics-table thead {
+    border-bottom: 1px solid black;
+}
+
+.statistics-table thead th {
+    width: 25%;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.statistics-table thead th:nth-child(2) {
+    width: 20%;
+}
+
+.statistics-table thead th:nth-child(3), th:nth-child(4) {
+    width: 15%
+}
+
+.statistics-table thead th:last-child {
+    width: auto;
+}
+
+.statistics-table tbody td {
+    text-align: center;
+    font-size: 18px;
+}
+
+.statistics-table tbody tr:nth-child(2n) {
+    background-color: azure;
+}
+
+.statistics-table thead th:first-child {
+    text-align: left;
+}
+
+.statistics-table tbody tr td:first-child {
+    text-align: left;
+}
+
+.b-pagination {
+    display: flex;
+}
+
+.b-item {
+    padding-right: 10px;
+}
+
+.b-link {
+    border: none;
+    background-color: inherit;
+    color: cornflowerblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.statistics-table th:hover::after {
+    content: " \2193";
+}
+
+.statistics-table th:hover {
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+.charts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favorites {
+    position: relative;
+}
+
+.arrow img {
+    width: 120px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.arrow-right {
+    transform: rotateY(180deg);
+    right: 0;
+}
+
+.comment-item {
+    margin-bottom: 5px;
+}
+
+.footer {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.footer .menu {
+    align-items: center;
+}
+
+.footer .menu-item-btn {
+    margin-left: auto;
+}
+
+@media (max-width: 1430px) {
+    .arrow-right {
+        right: -30px;
+    }
+
+    .arrow-left {
+        left: -30px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .arrows {
+        display: none;
+    }
+
+    .card-navigation {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1260px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .header, .footer {
+        font-size: 18px;
+    }
+
+    .header-title {
+        font-size: 40px;
+    }
+
+    .filters {
+        font-size: 14px;
+    }
+
+    .card img:not(.star) {
+        max-width: 120px;
+    }
+
+    .card-info h3 {
+        font-size: 18px;
+    }
+
+    .card-info .subject {
+        font-size: 14px;
+    }
+
+    .card-info .country {
+        font-size: 10px;
+    }
+
+    .p-circle {
+        height: 120px;
+        width: 120px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 780px) {
+    .top-cards {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .filters {
+        grid-template-columns: repeat(3, auto);
+        row-gap: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header .menu {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header .menu-item {
+        padding-right: 0;
+        flex-basis: 50%;
+    }
+
+    .statistics-table thead th {
+        font-size: 16px;
+    }
+
+    .statistics-table tbody td {
+        font-size: 14px;
+    }
+
+    .b-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 560px) {
+    .header-title {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .header .menu {
+        flex-direction: column;
+    }
+
+    .submit-btn, .add-btn {
+        padding: 5px 10px;
+    }
+
+    .submit-btn {
+        font-size: 10px;
+    }
+
+    .header .add-btn {
+        font-size: 14px;
+    }
+
+    #form-submit {
+        font-size: 20px;
+    }
+
+    .header-input {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .comment-item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 525px) {
+    .card img:not(.star) {
+        max-width: 80px;
+    }
+
+    .card-info h3 {
+        font-size: 14px;
+    }
+
+    .card-info .subject {
+        font-size: 12px;
+    }
+
+    .card-info .country {
+        font-size: 10px;
+    }
+
+    .p-circle {
+        height: 80px;
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .star {
+        height: 30px;
+    }
+
+    .footer .menu {
+        flex-wrap: wrap;
+    }
+
+    .footer .menu-item {
+        padding-right: 0;
+        flex-basis: 50%;
+    }
+
+    .footer .menu-item-btn {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media (max-width: 485px) {
+    .statistics-table thead th {
+        font-size: 14px;
+    }
+
+    .b-link {
+        font-size: 14px;
+    }
+
+    .statistics-table tbody td {
+        font-size: 12px;
+    }
+
+    .form {
+        width: 350px;
+    }
+
+    .form .form-container .data-item {
+        max-width: 50%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    #birthday, #sex, #form-color {
+        width: 196px;
+    }
+
+    .form .form-container textarea {
+        resize: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .header-input {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .submit-btn, .add-btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .comment-item {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .header-title {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+
+    .add-btn {
+        font-size: 10px;
+    }
+
+    .statistics-table thead th {
+        font-size: 12px;
+    }
+
+    .statistics-table tbody td {
+        font-size: 10px;
+    }
+
+    .b-link {
+        font-size: 12px;
+    }
+
+    .form {
+        width: 300px;
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "webpack": "webpack -w"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

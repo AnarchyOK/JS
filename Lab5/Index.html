@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/popups.css">
+    <title>Lab 5</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="header-title">Teachinder</h1>
+        <form action="#" class="header-form">
+            <label>
+                <input class="header-input" type="text" placeholder="Name, note or age to search">
+            </label>
+            <button class="submit-btn" type="submit">Search</button>
+        </form>
+        <nav class="header-nav">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#top-title" class="menu-link">Teachers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#stat-title" class="menu-link">Statistics</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#fav-title" class="menu-link">Favorites</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#foot" class="menu-link">About</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="add-btn add-btn-a" href="#myForm">Add teacher</a>
+    </div>
+</header>
+<main class="main">
+    <section class="top-info">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 id="top-title" class="top-title">Top Teachers</h2>
+            </div>
+            <form action="#" class="filters">
+                <fieldset>
+                    <legend>Age</legend>
+                    <label>
+                        <select class="filter filter-age">
+                            <option value="" class="age-option" disabled selected>Chose age</option>
+                            <option value="" class="age-option">All</option>
+                            <option value="18-31" class="age-option">18-31</option>
+                            <option value="31-44" class="age-option">31-44</option>
+                            <option value="44-57" class="age-option">44-57</option>
+                            <option value="57-100" class="age-option">57+</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Country</legend>
+                    <label for="filtration-country-list"></label>
+                    <select id="filtration-country-list" class="filter filter-country">
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Sex</legend>
+                    <label>
+                        <select class="filter filter-sex">
+                            <option value="" class="sex-option" disabled selected>Chose sex</option>
+                            <option value="" class="sex-option">All</option>
+                            <option value="male" class="sex-option">Male</option>
+                            <option value="female" class="sex-option">Female</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <label>
+                    <input type="checkbox" class="filter-photo">
+                    Only with photo
+                </label>
+                <label>
+                    <input type="checkbox" class="filter-favorite">
+                    Only favorites
+                </label>
+            </form>
+            <div class="top-cards">
+            </div>
+            <button class="more-teacher-button">10 more</button>
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 id="stat-title" class="statistic-title">Statistics</h2>
+            </div>
+            <table class="statistics-table">
+                <thead>
+                <tr>
+                    <th data-value="fullName" data-sort="asc">Name</th>
+                    <th data-value="course" data-sort="asc">Speciality</th>
+                    <th data-value="age" data-sort="asc">Age</th>
+                    <th data-value="gender" data-sort="asc">Sex</th>
+                    <th data-value="country" data-sort="asc">Country</th>
+                </tr>
+                </thead>
+                <tbody class="statistic-table-body">
+                </tbody>
+            </table>
+            <div class="pagination">
+                <ul class="b-pagination">
+                    <li class="b-item">
+                        <button class="b-link">1</button>
+                    </li>
+                    <li class="b-item">
+                        <button class="b-link">2</button>
+                    </li>
+                    <li class="b-item">
+                        <button class="b-link">3</button>
+                    </li>
+                    <li class="b-item">
+                        <span class="span-link">...</span>
+                    </li>
+                    <li class="b-item">
+                        <button class="b-link">Last</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="favorites">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 id="fav-title" class="favorites-title">Favorites</h2>
+            </div>
+            <div class="favorite-teachers">
+            </div>
+        </div>
+        <div class="arrows">
+            <div class="arrow arrow-left">
+                <img src="./Images/less.png" alt="">
+            </div>
+            <div class="arrow arrow-right">
+                <img src="./Images/less.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="comment">
+        <div class="container">
+            <div class="box-h2">
+                <hr>
+                <h2 class="no-title"></h2>
+            </div>
+            <div class="p-comments">
+                <p class="comment-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae
+                    doloremque itaque totam.
+                    Accusamus accusantium asperiores assumenda, beatae blanditiis consequuntur corporis delectus
+                    deserunt distinctio doloremque
+                    doloribus eius est, impedit itaque iure laborum laudantium maxime molestiae, nam nisi numquam odio
+                    odit officia omnis possimus
+                    quam quas quos ratione reiciendis reprehenderit rerum sed sequi sunt temporibus unde voluptatibus
+                    voluptatum. Aliquid animi
+                    consequuntur dolor doloremque ducimus, ipsam, officiis reprehenderit sapiente, similique velit vero.
+                </p>
+                <p class="comment-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illo nemo
+                    saepe? Delectus fugiat fugit
+                    officiis optio porro quidem sed sequi sit voluptatibus. Hic, natus?
+                </p>
+                <p class="comment-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur,
+                    cumque doloremque placeat
+                    ut voluptatum.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="foot" class="footer">
+    <div class="container">
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#top-title" class="menu-link">Teachers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#stat-title" class="menu-link">Statistics</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#fav-title" class="menu-link">Favorites</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#foot" class="menu-link">About</a>
+                </li>
+                <li class="menu-item-btn">
+                    <a class="add-btn add-btn-a" href="#myForm">Add teacher</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<div class="form-popup" id="myForm">
+    <div id="form" class="form">
+        <div class="form-header">
+            <h3>Add Teacher</h3>
+            <a class="close" href="#">&times;</a>
+        </div>
+        <form action="#" class="form-container" id="add-teacher-form">
+            <label for="name">Full name</label>
+            <input class="form-item name" type="text" id="name" name="fullName" pattern="(^[A-Za-z]{3,16})\s([A-Za-z]{3,16})"
+                   placeholder="John Snow" required>
+
+            <label for="speciality">Speciality</label>
+            <select class="form-item speciality" name="speciality" id="speciality" required>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Physics">Physics</option>
+                <option value="English">English</option>
+                <option value="Computer-Science">Computer Science</option>
+                <option value="Dancing">Dancing</option>
+                <option value="Chess">Chess</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Biology">Biology</option>
+                <option value="Law">Law</option>
+                <option value="Art">Art</option>
+                <option value="Medicine">Medicine</option>
+                <option value="Statistics">Statistics</option>
+            </select>
+
+            <div class="flex-data">
+                <div class="data-item">
+                    <label for="form-country-list">Country</label>
+                    <select id="form-country-list" class="country-list" name="country" required>
+                    </select>
+                </div>
+                <div class="form-item data-item">
+                    <label for="city">City</label>
+                    <input type="text" id="city" minlength="2" pattern="^[a-zA-Z]+$" name="city" required>
+                </div>
+                <div class="form-item data-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                           name="email" required>
+                </div>
+                <div class="form-item data-item">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" pattern="^[0-9*#+-/()]+$" required>
+                </div>
+            </div>
+
+            <label for="birthday">Date of birth</label>
+            <input class="form-item birthday" type="date" id="birthday" name="bDate" required>
+            <div id="sex" class="form-item sex">
+                <span>Sex</span>
+                <label>Male
+                    <input type="radio" name="gender" value="male" required>
+                </label>
+                <label>Female
+                    <input type="radio" name="gender" value="female" required>
+                </label>
+            </div>
+
+            <div id="form-color" class="form-item color">
+                <label for="favorite-color">Background color</label>
+                <img class="back-color" src="./Images/color.svg" alt="color">
+                <input type="color" id="favorite-color" name="bgColor">
+            </div>
+
+            <label for="comment">Notes (optional)</label>
+            <textarea class="form-item notes" id="comment" rows="5" cols="20" name="note"></textarea>
+
+            <button type="submit" id="form-submit" class="form-item add-btn submit">Add</button>
+        </form>
+    </div>
+</div>
+<div id="teacher-info-popup" class="teacher-info-popup">
+</div>
+<script type="module" src="scripts/Main.js"></script>
+</body>
+</html>

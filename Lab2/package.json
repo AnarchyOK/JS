@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "watch:scss": "node-sass -w css/form-popup.scss css/form-popup.css"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

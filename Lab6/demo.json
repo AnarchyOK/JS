@@ -1,0 +1,862 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "teachers": [
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Domorad Beleckiy",
+      "city": "Yuzhnoukrayinsk",
+      "state": "Poltavska",
+      "country": "Ukraine",
+      "postcode": 23606,
+      "coordinates": {
+        "latitude": "77.8412",
+        "longitude": "-171.0946"
+      },
+      "timezone": {
+        "offset": "+9:30",
+        "description": "Adelaide, Darwin"
+      },
+      "email": "domorad.beleckiy@example.com",
+      "bDate": "1975-11-09T05:04:23.001Z",
+      "age": 47,
+      "phone": "(067) Y95-2294",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/98.jpg",
+      "favorite": true,
+      "speciality": "Statistics",
+      "bgColor": "#f0ddbb",
+      "note": "AYHekQG fSAPDdW epTTtBa npHkXMD mhgXcGF djvGmTi liYxYDz",
+      "id": 1
+    },
+    {
+      "sex": "female",
+      "title": "Ms",
+      "fullName": "Marta Blagojević",
+      "city": "Kraljevo",
+      "state": "Kolubara",
+      "country": "Serbia",
+      "postcode": 80084,
+      "coordinates": {
+        "latitude": "-64.0261",
+        "longitude": "105.0235"
+      },
+      "timezone": {
+        "offset": "-9:00",
+        "description": "Alaska"
+      },
+      "email": "marta.blagojevic@example.com",
+      "bDate": "1964-12-24T11:04:30.566Z",
+      "age": 58,
+      "phone": "035-2971-611",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/58.jpg",
+      "favorite": true,
+      "speciality": "Mathematics",
+      "bgColor": "#a8bcb9",
+      "note": "miEmLjW mlygLGN PfhCkMJ TYAPXPq YiBthlM MVlOonJ fRgbVeY",
+      "id": 2
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Flynn Jackson",
+      "city": "Wellington",
+      "state": "Nelson",
+      "country": "New Zealand",
+      "postcode": 73135,
+      "coordinates": {
+        "latitude": "18.0900",
+        "longitude": "179.3902"
+      },
+      "timezone": {
+        "offset": "+1:00",
+        "description": "Brussels, Copenhagen, Madrid, Paris"
+      },
+      "email": "flynn.jackson@example.com",
+      "bDate": "1956-01-12T03:04:09.578Z",
+      "age": 67,
+      "phone": "(634)-626-6911",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/19.jpg",
+      "favorite": false,
+      "speciality": "Chemistry",
+      "bgColor": "#6c8a0d",
+      "note": "TowfioN khqLKpG RPUdcVt HSFSarT bywGRbV wCcJShW QaQneyL",
+      "id": 3
+    },
+    {
+      "sex": "female",
+      "title": "Miss",
+      "fullName": "Lana Louis",
+      "city": "Saint-Étienne",
+      "state": "Territoire De Belfort",
+      "country": "France",
+      "postcode": 11552,
+      "coordinates": {
+        "latitude": "-23.1016",
+        "longitude": "141.9867"
+      },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      },
+      "email": "lana.louis@example.com",
+      "bDate": "1986-01-28T02:58:50.248Z",
+      "age": 37,
+      "phone": "05-77-11-33-94",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/77.jpg",
+      "favorite": true,
+      "speciality": "Chemistry",
+      "bgColor": "#ba20",
+      "note": "hpzUeBR AvsAmOu PPzUoVJ lARyqDq KWSYIPJ pOxbQUG NuqQKQj",
+      "id": 4
+    },
+    {
+      "sex": "female",
+      "title": "Ms",
+      "fullName": "Sara Uribe",
+      "city": "Ixtapaluca",
+      "state": "Yucatan",
+      "country": "Mexico",
+      "postcode": 89549,
+      "coordinates": {
+        "latitude": "20.9505",
+        "longitude": "-75.1737"
+      },
+      "timezone": {
+        "offset": "-6:00",
+        "description": "Central Time (US & Canada), Mexico City"
+      },
+      "email": "sara.uribe@example.com",
+      "bDate": "1966-11-16T04:47:06.071Z",
+      "age": 56,
+      "phone": "(659) 570 5119",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/31.jpg",
+      "favorite": true,
+      "speciality": "Statistics",
+      "bgColor": "#bb0d3",
+      "note": "AnIJYYm rgYxdMP RCyTrDC BCTaljh ozSkcGF xWZcfJG aGteQIh",
+      "id": 5
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Batur Özbir",
+      "city": "Isparta",
+      "state": "Osmaniye",
+      "country": "Turkey",
+      "postcode": 65475,
+      "coordinates": {
+        "latitude": "11.8197",
+        "longitude": "-89.6767"
+      },
+      "timezone": {
+        "offset": "-3:30",
+        "description": "Newfoundland"
+      },
+      "email": "batur.ozbir@example.com",
+      "bDate": "1951-03-01T16:54:26.146Z",
+      "age": 72,
+      "phone": "(036)-859-8175",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/61.jpg",
+      "favorite": false,
+      "speciality": "Medicine",
+      "bgColor": "#30570d",
+      "note": "xUzLzvd gohsNvD GJcLJaf lSqjtPz rgNcvFe chpGcUV KXwjoit",
+      "id": 6
+    },
+    {
+      "sex": "male",
+      "title": "Monsieur",
+      "fullName": "Pedro Lefebvre",
+      "city": "Hauterive (Ne)",
+      "state": "Solothurn",
+      "country": "Switzerland",
+      "postcode": 5270,
+      "coordinates": {
+        "latitude": "49.4996",
+        "longitude": "79.1054"
+      },
+      "timezone": {
+        "offset": "-8:00",
+        "description": "Pacific Time (US & Canada)"
+      },
+      "email": "pedro.lefebvre@example.com",
+      "bDate": "1985-10-10T00:12:39.315Z",
+      "age": 37,
+      "phone": "075 622 82 39",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/37.jpg",
+      "favorite": false,
+      "speciality": "Biology",
+      "bgColor": "#6835d4",
+      "note": "EUnDxrH BOaMusQ LImzyEG CJNhNIA hEwQwVi qfyOvbv CaGzmBy",
+      "id": 7
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Bojan Knapen",
+      "city": "Kloosterburen",
+      "state": "Overijssel",
+      "country": "Netherlands",
+      "postcode": "0751 FQ",
+      "coordinates": {
+        "latitude": "-38.8260",
+        "longitude": "95.5230"
+      },
+      "timezone": {
+        "offset": "+9:00",
+        "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+      },
+      "email": "bojan.knapen@example.com",
+      "bDate": "1973-12-13T19:02:15.836Z",
+      "age": 49,
+      "phone": "(000) 3078531",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/54.jpg",
+      "favorite": false,
+      "speciality": "Computer Science",
+      "bgColor": "#63aad6",
+      "note": "wlhbbLK TlcWrGg CGqmKUP flqjlOl aRZTosN LOkaFxE psjfInk",
+      "id": 8
+    },
+    {
+      "sex": "female",
+      "title": "Miss",
+      "fullName": "Mirian Petter",
+      "city": "Beuningen Ov",
+      "state": "Zeeland",
+      "country": "Netherlands",
+      "postcode": "8328 CB",
+      "coordinates": {
+        "latitude": "55.3905",
+        "longitude": "-93.0971"
+      },
+      "timezone": {
+        "offset": "-12:00",
+        "description": "Eniwetok, Kwajalein"
+      },
+      "email": "mirian.petter@example.com",
+      "bDate": "1961-04-01T20:44:28.073Z",
+      "age": 62,
+      "phone": "(0745) 495873",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/25.jpg",
+      "favorite": false,
+      "speciality": "Art",
+      "bgColor": "#86ac3f",
+      "note": "AOlqaNP SOTzmlV AakVBkZ VlRSeEx hIGtTAU QIVHVPA CkUllFx",
+      "id": 9
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Greg Duncan",
+      "city": "Akron",
+      "state": "Kentucky",
+      "country": "United States",
+      "postcode": 32374,
+      "coordinates": {
+        "latitude": "-36.5511",
+        "longitude": "-70.4363"
+      },
+      "timezone": {
+        "offset": "+5:30",
+        "description": "Bombay, Calcutta, Madras, New Delhi"
+      },
+      "email": "greg.duncan@example.com",
+      "bDate": "1993-08-29T13:32:53.231Z",
+      "age": 29,
+      "phone": "(878) 884-1896",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/9.jpg",
+      "favorite": false,
+      "speciality": "Physics",
+      "bgColor": "#623975",
+      "note": "IOTGpyq IettGxa lahxqkz xSLItaD BdKhJad fOqPOEo diCGVrj",
+      "id": 10
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Billy Parveen",
+      "city": "Hvittingfoss",
+      "state": "Akershus",
+      "country": "Norway",
+      "postcode": "4522",
+      "coordinates": {
+        "latitude": "-43.3389",
+        "longitude": "68.4412"
+      },
+      "timezone": {
+        "offset": "0:00",
+        "description": "Western Europe Time, London, Lisbon, Casablanca"
+      },
+      "email": "billy.parveen@example.com",
+      "bDate": "1955-05-02T20:19:05.604Z",
+      "age": 68,
+      "phone": "88286423",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/63.jpg",
+      "favorite": false,
+      "speciality": "Computer Science",
+      "bgColor": "#235e7d",
+      "note": "JAAIjhn CphiEEJ xlIDWYY FKLBAIu kYhNsJv hYDqWLY lBrPjDJ",
+      "id": 11
+    },
+    {
+      "sex": "female",
+      "title": "Mrs",
+      "fullName": "Jip Hubbers",
+      "city": "De Bilt",
+      "state": "Overijssel",
+      "country": "Netherlands",
+      "postcode": "8555 MJ",
+      "coordinates": {
+        "latitude": "2.9258",
+        "longitude": "-22.5287"
+      },
+      "timezone": {
+        "offset": "-10:00",
+        "description": "Hawaii"
+      },
+      "email": "jip.hubbers@example.com",
+      "bDate": "1984-03-21T14:27:05.218Z",
+      "age": 39,
+      "phone": "(051) 8629783",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/8.jpg",
+      "favorite": false,
+      "speciality": "Art",
+      "bgColor": "#e524ca",
+      "note": "UIQsGCS EFNvlhM rTtGrfR lDRWwRC exoOWwD ZVOKiQo isRWkyd",
+      "id": 12
+    },
+    {
+      "sex": "female",
+      "title": "Mrs",
+      "fullName": "Milica Zec",
+      "city": "Bela Palanka",
+      "state": "South Bačka",
+      "country": "Serbia",
+      "postcode": 76154,
+      "coordinates": {
+        "latitude": "-55.3906",
+        "longitude": "80.6957"
+      },
+      "timezone": {
+        "offset": "+5:00",
+        "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+      },
+      "email": "milica.zec@example.com",
+      "bDate": "1985-05-13T02:35:56.632Z",
+      "age": 38,
+      "phone": "033-0771-563",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/60.jpg",
+      "favorite": false,
+      "speciality": "Statistics",
+      "bgColor": "#965147",
+      "note": "Ofepfwq gPgpeZb rcGtZHf jhaLcRO iWeWzqY CZDmmbq jodCzZx",
+      "id": 13
+    },
+    {
+      "sex": "female",
+      "title": "Mrs",
+      "fullName": "Nigoslava Drozd",
+      "city": "Mogiliv-Podilskiy",
+      "state": "Kiyivska",
+      "country": "Ukraine",
+      "postcode": 14056,
+      "coordinates": {
+        "latitude": "89.3585",
+        "longitude": "-74.7079"
+      },
+      "timezone": {
+        "offset": "-1:00",
+        "description": "Azores, Cape Verde Islands"
+      },
+      "email": "nigoslava.drozd@example.com",
+      "bDate": "1954-10-23T16:11:28.961Z",
+      "age": 68,
+      "phone": "(096) E82-4585",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/33.jpg",
+      "favorite": false,
+      "speciality": "Chemistry",
+      "bgColor": "#163646",
+      "note": "kigkleY NccITqB wwJVMui dmVWWIR iegJcca Mfxnfez MaIaMHn",
+      "id": 14
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Jamie Beck",
+      "city": "Winchester",
+      "state": "Berkshire",
+      "country": "United Kingdom",
+      "postcode": "Z56 8TU",
+      "coordinates": {
+        "latitude": "-28.4471",
+        "longitude": "50.3347"
+      },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      },
+      "email": "jamie.beck@example.com",
+      "bDate": "1972-06-23T05:01:22.997Z",
+      "age": 50,
+      "phone": "016973 58260",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/86.jpg",
+      "favorite": true,
+      "speciality": "Biology",
+      "bgColor": "#29aedc",
+      "note": "ICpDLbh BeeFZby hWUfRQA WNUbfwF jQJrzLT LLoNfLd uofRJdo",
+      "id": 15
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Valeriy G'olyash",
+      "city": "Rava-Ruska",
+      "state": "Zakarpatska",
+      "country": "Ukraine",
+      "postcode": 59259,
+      "coordinates": {
+        "latitude": "43.3624",
+        "longitude": "130.8654"
+      },
+      "timezone": {
+        "offset": "+4:00",
+        "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+      },
+      "email": "valeriy.g'olyash@example.com",
+      "bDate": "1983-08-19T23:28:33.635Z",
+      "age": 39,
+      "phone": "(096) Y75-9245",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/53.jpg",
+      "favorite": false,
+      "speciality": "Art",
+      "bgColor": "#707c91",
+      "note": "FokSaMH HUagCYo GUhnWEH hULlsyV XzujJOx JxSIScD JgHxFMJ",
+      "id": 16
+    },
+    {
+      "sex": "female",
+      "title": "Mrs",
+      "fullName": "Noelle Vernekar",
+      "city": "Davanagere",
+      "state": "Dadra and Nagar Haveli",
+      "country": "India",
+      "postcode": 65312,
+      "coordinates": {
+        "latitude": "46.6351",
+        "longitude": "-52.1821"
+      },
+      "timezone": {
+        "offset": "+5:30",
+        "description": "Bombay, Calcutta, Madras, New Delhi"
+      },
+      "email": "noelle.vernekar@example.com",
+      "bDate": "1993-05-09T07:28:20.708Z",
+      "age": 30,
+      "phone": "8505347464",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/86.jpg",
+      "favorite": true,
+      "speciality": "Chess",
+      "bgColor": "#a9f124",
+      "note": "xtwWvrt OxamLsU biVJGhX llKaacr GUEIPCl ZnWKjIy drABVzG",
+      "id": 17
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Nagraj Nair",
+      "city": "Hubli–Dharwad",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "postcode": 28692,
+      "coordinates": {
+        "latitude": "73.8847",
+        "longitude": "1.4742"
+      },
+      "timezone": {
+        "offset": "+1:00",
+        "description": "Brussels, Copenhagen, Madrid, Paris"
+      },
+      "email": "nagraj.nair@example.com",
+      "bDate": "1966-11-21T14:22:31.591Z",
+      "age": 56,
+      "phone": "7541870934",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/35.jpg",
+      "favorite": true,
+      "speciality": "Art",
+      "bgColor": "#523a8a",
+      "note": "lGQSOdG sGFCmDx wqqZPZD rPxcjKe SVRXmnJ wdSAHGa HxdWyjI",
+      "id": 18
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Mileta Vilotić",
+      "city": "Vladičin Han",
+      "state": "Mačva",
+      "country": "Serbia",
+      "postcode": 32359,
+      "coordinates": {
+        "latitude": "43.1177",
+        "longitude": "138.1923"
+      },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      },
+      "email": "mileta.vilotic@example.com",
+      "bDate": "1963-06-22T12:15:20.188Z",
+      "age": 59,
+      "phone": "010-4929-842",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/56.jpg",
+      "favorite": false,
+      "speciality": "Medicine",
+      "bgColor": "#db2256",
+      "note": "QEmOfpS YmhKgpF XPPIQYE NfKQSqg oybzHts ywBNOtA rHYlfbh",
+      "id": 19
+    },
+    {
+      "sex": "female",
+      "title": "Ms",
+      "fullName": "Jânia Costa",
+      "city": "Paulo Afonso",
+      "state": "Pará",
+      "country": "Brazil",
+      "postcode": 16859,
+      "coordinates": {
+        "latitude": "-27.6101",
+        "longitude": "70.9881"
+      },
+      "timezone": {
+        "offset": "-6:00",
+        "description": "Central Time (US & Canada), Mexico City"
+      },
+      "email": "jania.costa@example.com",
+      "bDate": "1960-10-30T06:30:42.839Z",
+      "age": 62,
+      "phone": "(78) 1344-0977",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/12.jpg",
+      "favorite": false,
+      "speciality": "Chess",
+      "bgColor": "#9eb891",
+      "note": "RogCZPU hKbDQgD HFkNPeZ hktoOVN hUQoydD KldjgFc cBddSHu",
+      "id": 20
+    },
+    {
+      "sex": "female",
+      "title": "Mrs",
+      "fullName": "Bia Gonçalves",
+      "city": "Parnaíba",
+      "state": "Roraima",
+      "country": "Brazil",
+      "postcode": 62103,
+      "coordinates": {
+        "latitude": "43.3884",
+        "longitude": "79.6231"
+      },
+      "timezone": {
+        "offset": "+6:00",
+        "description": "Almaty, Dhaka, Colombo"
+      },
+      "email": "bia.goncalves@example.com",
+      "bDate": "1985-06-03T06:18:55.387Z",
+      "age": 37,
+      "phone": "(68) 8669-3393",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/48.jpg",
+      "favorite": true,
+      "speciality": "Medicine",
+      "bgColor": "#8dd724",
+      "note": "MNlrgpn REbvfwa rKkqrrx ClHDoIo LXzydAf gAaaREF riHDFxS",
+      "id": 21
+    },
+    {
+      "sex": "female",
+      "title": "Miss",
+      "fullName": "Elizabeth Patterson",
+      "city": "Wexford",
+      "state": "Galway",
+      "country": "Ireland",
+      "postcode": 41767,
+      "coordinates": {
+        "latitude": "15.7934",
+        "longitude": "-75.6277"
+      },
+      "timezone": {
+        "offset": "-8:00",
+        "description": "Pacific Time (US & Canada)"
+      },
+      "email": "elizabeth.patterson@example.com",
+      "bDate": "1955-06-22T09:59:36.916Z",
+      "age": 67,
+      "phone": "011-620-6037",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/90.jpg",
+      "favorite": false,
+      "speciality": "Computer Science",
+      "bgColor": "#ae3086",
+      "note": "maFCvhV Yjyxjza pvkNzdy RjMioLx pLWVKaL vKnhykw IKSDEhr",
+      "id": 22
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Arthur Krahn",
+      "city": "Neustadt am Kulm",
+      "state": "Brandenburg",
+      "country": "Germany",
+      "postcode": 97487,
+      "coordinates": {
+        "latitude": "37.1167",
+        "longitude": "23.4183"
+      },
+      "timezone": {
+        "offset": "+2:00",
+        "description": "Kaliningrad, South Africa"
+      },
+      "email": "arthur.krahn@example.com",
+      "bDate": "1967-11-26T11:35:42.619Z",
+      "age": 55,
+      "phone": "0213-6912342",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/5.jpg",
+      "favorite": true,
+      "speciality": "Chemistry",
+      "bgColor": "#427817",
+      "note": "FttvWys ZtGLiRH EgVcojE fEFBNlO ZAlcdrd AVOqsiO jFcsRbg",
+      "id": 23
+    },
+    {
+      "sex": "female",
+      "title": "Miss",
+      "fullName": "Sylvia Kuhn",
+      "city": "Boise",
+      "state": "Oregon",
+      "country": "United States",
+      "postcode": 48257,
+      "coordinates": {
+        "latitude": "-60.1175",
+        "longitude": "61.7424"
+      },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      },
+      "email": "sylvia.kuhn@example.com",
+      "bDate": "1958-04-26T18:36:38.104Z",
+      "age": 65,
+      "phone": "(798) 782-2065",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/96.jpg",
+      "favorite": false,
+      "speciality": "Biology",
+      "bgColor": "#2729c9",
+      "note": "QIGMozz OcrQmSk zWNabKC LzTNSxA xlHplEj AyNZZvs qgDhEhn",
+      "id": 24
+    },
+    {
+      "sex": "female",
+      "title": "Ms",
+      "fullName": "یاسمین جعفری",
+      "city": "سبزوار",
+      "state": "سیستان و بلوچستان",
+      "country": "Iran",
+      "postcode": 28779,
+      "coordinates": {
+        "latitude": "52.3769",
+        "longitude": "176.4080"
+      },
+      "timezone": {
+        "offset": "-7:00",
+        "description": "Mountain Time (US & Canada)"
+      },
+      "email": "ysmyn.jaafry@example.com",
+      "bDate": "1953-06-20T04:15:36.805Z",
+      "age": 69,
+      "phone": "036-01042999",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/29.jpg",
+      "favorite": false,
+      "speciality": "Chess",
+      "bgColor": "#43125e",
+      "note": "ptFPUkM iPzjpGW qHophOf ycCFpVM dwaajvf SjEhWWQ jChTQrf",
+      "id": 25
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Daniel Mcdonalid",
+      "city": "Cork",
+      "state": "Wexford",
+      "country": "Ireland",
+      "postcode": 59714,
+      "coordinates": {
+        "latitude": "64.4918",
+        "longitude": "-10.9493"
+      },
+      "timezone": {
+        "offset": "+4:00",
+        "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+      },
+      "email": "daniel.mcdonalid@example.com",
+      "bDate": "1986-08-19T07:43:19.431Z",
+      "age": 36,
+      "phone": "051-963-5452",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/7.jpg",
+      "favorite": false,
+      "speciality": "Biology",
+      "bgColor": "#c7dcb4",
+      "note": "lPljmrV UjqEqzx eLVuqhB NxmiRrw PMgSeeg gXvdjHA xnxriYK",
+      "id": 26
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Gustav Jørgensen",
+      "city": "København N",
+      "state": "Hovedstaden",
+      "country": "Denmark",
+      "postcode": 58634,
+      "coordinates": {
+        "latitude": "-68.6910",
+        "longitude": "-129.5114"
+      },
+      "timezone": {
+        "offset": "0:00",
+        "description": "Western Europe Time, London, Lisbon, Casablanca"
+      },
+      "email": "gustav.jorgensen@example.com",
+      "bDate": "1980-06-22T08:10:49.919Z",
+      "age": 42,
+      "phone": "31907766",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/97.jpg",
+      "favorite": true,
+      "speciality": "Chemistry",
+      "bgColor": "#47afba",
+      "note": "WfaDzFV YUxwYms RzzrDdC MMaOwYW SGeqDCH uSjbQYB uGFPIKd",
+      "id": 27
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Jorne Daniëls",
+      "city": "Hoogerheide",
+      "state": "Noord-Brabant",
+      "country": "Netherlands",
+      "postcode": "4596 RS",
+      "coordinates": {
+        "latitude": "62.2392",
+        "longitude": "78.4603"
+      },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      },
+      "email": "jorne.daniels@example.com",
+      "bDate": "1975-08-01T07:13:17.077Z",
+      "age": 47,
+      "phone": "(050) 6292430",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/89.jpg",
+      "favorite": true,
+      "speciality": "Mathematics",
+      "bgColor": "#64f5f8",
+      "note": "MqZmhLn UdKQgMb tkfZMFx LuiXHjr EGQGenA OyUyKXX eAFcgwo",
+      "id": 28
+    },
+    {
+      "sex": "male",
+      "title": "Mr",
+      "fullName": "Klaus-Dieter Hartmann",
+      "city": "Hennigsdorf",
+      "state": "Sachsen-Anhalt",
+      "country": "Germany",
+      "postcode": 32473,
+      "coordinates": {
+        "latitude": "76.7429",
+        "longitude": "-112.4148"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      },
+      "email": "klaus-dieter.hartmann@example.com",
+      "bDate": "1998-01-28T05:22:21.893Z",
+      "age": 25,
+      "phone": "0403-9169299",
+      "pictureLarge": "https://randomuser.me/api/portraits/men/6.jpg",
+      "favorite": true,
+      "speciality": "Chess",
+      "bgColor": "#290aac",
+      "note": "KqWOExe wqGLpId pBKQZVv CzuWLqJ iTnFtRz QCXCnXB DDEVKWL",
+      "id": 29
+    },
+    {
+      "sex": "female",
+      "title": "Ms",
+      "fullName": "Afet Tunaboylu",
+      "city": "Adıyaman",
+      "state": "Denizli",
+      "country": "Turkey",
+      "postcode": 28335,
+      "coordinates": {
+        "latitude": "88.8889",
+        "longitude": "-80.8124"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      },
+      "email": "afet.tunaboylu@example.com",
+      "bDate": "1977-02-13T11:02:29.297Z",
+      "age": 46,
+      "phone": "(197)-978-9326",
+      "pictureLarge": "https://randomuser.me/api/portraits/women/77.jpg",
+      "favorite": false,
+      "speciality": "Law",
+      "bgColor": "#d485b6",
+      "note": "NnHVrUT gPufMpp tZPmZVa uGmmxDu xyJNxCe wWblsNw nByBaPx",
+      "id": 30
+    },
+    {
+      "fullName": "Pershko Vladyslav",
+      "speciality": "English",
+      "country": "Armenia",
+      "city": "Kyiv",
+      "email": "vpersko@gmail.com",
+      "phone": "+374",
+      "bDate": "2023-05-02",
+      "sex": "male",
+      "bgColor": "#000000",
+      "note": "",
+      "id": 31,
+      "favorite": false
+    },
+    {
+      "fullName": "Oleg Kovalchuk",
+      "speciality": "Chess",
+      "country": "Armenia",
+      "city": "Kherson",
+      "email": "olegkoval1029@gmail.com",
+      "phone": "+93",
+      "bDate": "2004-03-11",
+      "sex": "male",
+      "bgColor": "#000000",
+      "note": "",
+      "id": 32
+    }
+  ],
+  "coordinates": {
+    "latitude": "18.0900",
+    "longitude": "179.3902"
+  }
+}
